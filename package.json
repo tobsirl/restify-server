@@ -1,0 +1,23 @@
+{
+  "name": "restify-server",
+  "version": "1.0.0",
+  "description": "restify server",
+  "main": "server.js",
+  "dependencies": {
+    "mongoose": "^5.2.1",
+    "nodemon": "^1.17.5",
+    "restify": "^7.1.0"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.3",
+    "babel-polyfill": "^6.26.0",
+    "babel-preset-env": "^1.7.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "Paul Tobin",
+  "license": "ISC"
+}
